@@ -9,6 +9,8 @@ require_once('Mobile_Detect.php');
    foreach($params as $p) {
        if(isset($_POST[$p])){
         $_SESSION[$p] = (string)@$_POST[$p];
+       } else {
+        $_SESSION[$p] = '';
        }
    }
 
@@ -64,9 +66,9 @@ $fields = array(
 'Device__c'=>urlencode($items['Device__c']),
 'recordType'=>'012RA0000013H3l',
 'LastName__c'=>urlencode($items['kaisyamei']),
-'Tantousya__c'=>urlencode($items['tantou_sei'].' '.$items['tantou_mei']),
-'TantousyaFuri__c'=>urlencode($items['tantou_furi_sei'].' '.$items['tantou_furi_mei']),
-'Phone__c'=>urlencode($items['tel1'].'-'.$items['tel2'].'-'.$items['tel3']),
+'Tantousya__c'=>urlencode($items['tantou_sei']),
+'TantousyaFuri__c'=>urlencode($items['tantou_furi_sei']),
+'Phone__c'=>urlencode($items['tel1']),
 'Email__c'=>urlencode($items['email']),
 'Prefectures__c'=>urlencode($items['pref']),
 'kento__c'=>urlencode($items['kento']),
