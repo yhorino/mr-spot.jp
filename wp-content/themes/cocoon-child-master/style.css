@@ -32,3 +32,19 @@ Version:    1.1.3
 @media screen and (max-width: 480px){
   /*必要ならばここにコードを書く*/
 }
+
+/* 不要な項目を非表示に */
+header.article-header.entry-header {
+    display: none;
+}
+footer.article-footer.entry-footer {
+    display: none;
+}
+h3.widget-footer-center-title.footer-title {
+    display: none;
+}
+.footer-bottom.fdt-logo.fnm-text-width.cf {
+    display: none;
+}
+/* 不要な項目を非表示に */
+
