@@ -24,6 +24,7 @@
    
   </div>
   
+	  <?php /* ?>
   <div class="sm_body">
    <ul class="sm_list">
 	   <li><a href="/#voice">お客様の声</a></li>
@@ -39,6 +40,7 @@
 	   <li><a href="/category/お知らせ/">お知らせ</a></li>
    </ul>
   </div>
+<?php */ ?>
   
   <div class="sm_footer">
 	  
