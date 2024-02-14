@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 6.4.x - Development package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-11-13 16:37:11+0000\n"
+"PO-Revision-Date: 2023-11-07 06:16:53+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1148,7 +1148,7 @@ msgid "Sorry, replies to unapproved comments are not allowed."
 msgstr "承認されていないコメントへの返信は許可されていません。"
 
 #. translators: %s: A list of placeholders found to be a problem.
-#: wp-includes/class-wpdb.php:1662
+#: wp-includes/class-wpdb.php:1647
 msgid "Arguments cannot be prepared as both an Identifier and Value. Found the following conflicts: %s"
 msgstr "引数は、識別子と値の両方として準備することはできません。次の競合が見つかりました: %s"
 
@@ -1366,11 +1366,11 @@ msgstr "%s ファイルではないようです。インストールを続行す
 msgid "The date and time the preferences were updated."
 msgstr "設定が更新された日時です。"
 
-#: wp-includes/theme.php:4104
+#: wp-includes/theme.php:4141
 msgid "Whether the theme disables generated layout styles."
 msgstr "生成されたレイアウトスタイルをテーマが無効にするかどうか。"
 
-#: wp-includes/theme.php:3914
+#: wp-includes/theme.php:3951
 msgid "Whether a theme uses block-based template parts."
 msgstr "テーマがブロックベーステンプレートパーツを使用するかどうか。"
 
@@ -1568,7 +1568,7 @@ msgstr "フックの cron 予約解除イベントエラー: %1$s、エラーコ
 msgid "Cron reschedule event error for hook: %1$s, Error code: %2$s, Error message: %3$s, Data: %4$s"
 msgstr "フックの cron 再予約イベントエラー: %1$s、エラーコード: %2$s、エラーメッセージ: %3$s、データ: %4$s"
 
-#: wp-includes/theme.php:3907
+#: wp-includes/theme.php:3944
 msgid "Whether a theme uses block-based templates."
 msgstr "テーマがブロックベーステンプレートを使用するかどうか。"
 
@@ -1804,11 +1804,11 @@ msgid "Need more help? <a href=\"%1$s\">Read the support article on %2$s</a>."
 msgstr "さらにヘルプが必要な場合は、<a href=\"%1$s\">%2$s についてのサポート記事をご覧ください</a>。"
 
 #. translators: %s: Database name.
-#: wp-includes/class-wpdb.php:1214
+#: wp-includes/class-wpdb.php:1199
 msgid "The database server could be connected to (which means your username and password is okay) but the %s database could not be selected."
 msgstr "データベースサーバーに接続することはできましたが (これはユーザー名とパスワードには問題がないということです)、%s データベースは選択できませんでした。"
 
-#: wp-includes/class-wpdb.php:1210
+#: wp-includes/class-wpdb.php:1195
 msgid "Cannot select database"
 msgstr "データベースを選択できません"
 
@@ -2195,25 +2195,25 @@ msgstr "コメントはありません"
 msgid "Confirm"
 msgstr "確認"
 
-#: wp-includes/class-wpdb.php:3685
+#: wp-includes/class-wpdb.php:3670
 msgid "Could not strip invalid text."
 msgstr "無効なテキストを除去できませんでした。"
 
-#: wp-includes/class-wpdb.php:3232
+#: wp-includes/class-wpdb.php:3217
 msgid "Could not retrieve table charset."
 msgstr "テーブルの文字コードを取得できませんでした。"
 
 #. translators: %s: Database fields where the error occurred.
-#: wp-includes/class-wpdb.php:2848
+#: wp-includes/class-wpdb.php:2833
 msgid "WordPress database error: Processing the values for the following fields failed: %s. The supplied values may be too long or contain invalid data."
 msgstr "WordPress データベースエラー: 次のフィールドの値の処理に失敗しました: %s。提供された値は長すぎるか、無効なデータを含んでいる可能性があります。"
 
 #. translators: %s: Database field where the error occurred.
-#: wp-includes/class-wpdb.php:2842
+#: wp-includes/class-wpdb.php:2827
 msgid "WordPress database error: Processing the value for the following field failed: %s. The supplied value may be too long or contains invalid data."
 msgstr "WordPress データベースエラー: 次のフィールドの値の処理に失敗しました: %s。提供された値が長すぎるか、無効なデータを含んでいる可能性があります。"
 
-#: wp-includes/class-wpdb.php:2252
+#: wp-includes/class-wpdb.php:2237
 msgid "WordPress database error: Could not perform query because it contains invalid data."
 msgstr "WordPress データベースエラー: 無効なデータが含まれているため、クエリーを実行できませんでした。"
 
@@ -5190,11 +5190,11 @@ msgstr "ブロック API のバージョン。"
 msgid "Invalid parameters."
 msgstr "パラメータが無効です。"
 
-#: wp-includes/rest-api/class-wp-rest-server.php:1675
+#: wp-includes/rest-api/class-wp-rest-server.php:1668
 msgid "The requested route does not support batch requests."
 msgstr "リクエストされたルートはバッチリクエストをサポートしません。"
 
-#: wp-includes/rest-api/class-wp-rest-server.php:1625
+#: wp-includes/rest-api/class-wp-rest-server.php:1618
 msgid "Could not parse the path."
 msgstr "パスを解析できませんでした。"
 
@@ -5202,7 +5202,7 @@ msgstr "パスを解析できませんでした。"
 msgid "The handler for the route is invalid."
 msgstr "ルートのハンドラが無効です。"
 
-#: wp-includes/theme.php:2680
+#: wp-includes/theme.php:2717
 msgid "You need to pass an array of post formats."
 msgstr "投稿フォーマットの配列を渡す必要があります。"
 
@@ -5331,7 +5331,7 @@ msgid "Please use %s to add new schema properties."
 msgstr "新しいスキーマプロパティを追加するには %s を使用してください。"
 
 #. translators: %s: prepare_callback
-#: wp-includes/theme.php:3315
+#: wp-includes/theme.php:3352
 msgid "The \"%s\" must be a callable function."
 msgstr "\"%s\" は呼び出し可能な関数でなければなりません。"
 
@@ -6132,44 +6132,44 @@ msgstr "デフォルトメタ値を登録する場合、データは指定する
 msgid "RSS Feed"
 msgstr "RSS フィード"
 
-#: wp-includes/theme.php:4240
+#: wp-includes/theme.php:4277
 msgid "The post types that support thumbnails or true if all post types are supported."
 msgstr "サムネイルをサポートしている投稿タイプ。または、すべての投稿タイプがサムネイルをサポートしている場合には true。"
 
-#: wp-includes/theme.php:3302
+#: wp-includes/theme.php:3339
 msgid "When registering an \"object\" feature, the feature's schema must include the \"properties\" keyword."
 msgstr "object 機能を登録する場合、機能のスキーマは properties キーワードを含む必要があります。"
 
-#: wp-includes/theme.php:3295
+#: wp-includes/theme.php:3332
 msgid "When registering an \"array\" feature, the feature's schema must include the \"items\" keyword."
 msgstr "array 機能を登録する場合、機能のスキーマは items キーワードを含む必要があります。"
 
-#: wp-includes/theme.php:3288
+#: wp-includes/theme.php:3325
 msgid "When registering an \"array\" or \"object\" feature to show in the REST API, the feature's schema must also be defined."
 msgstr "REST API での表示のため array 機能または object 機能を登録する場合、機能のスキーマも定義する必要があります。"
 
-#: wp-includes/theme.php:3280
+#: wp-includes/theme.php:3317
 msgid "When registering a \"variadic\" theme feature, the \"type\" must be an \"array\"."
 msgstr "variadic テーマ機能を登録する場合、type は array である必要があります。"
 
-#: wp-includes/theme.php:3273
+#: wp-includes/theme.php:3310
 msgid "The feature \"type\" is not valid JSON Schema type."
 msgstr "機能 type は正しい JSON スキーマタイプではありません。"
 
 #. translators: %s: Theme name.
-#: wp-includes/theme.php:976
+#: wp-includes/theme.php:1013
 msgctxt "theme"
 msgid "<strong>Error:</strong> Current WordPress version does not meet minimum requirements for %s."
 msgstr "<strong>エラー:</strong> 現在の WordPress バージョンは %s の最低必須バージョンを満たしていません。"
 
 #. translators: %s: Theme name.
-#: wp-includes/theme.php:967
+#: wp-includes/theme.php:1004
 msgctxt "theme"
 msgid "<strong>Error:</strong> Current PHP version does not meet minimum requirements for %s."
 msgstr "<strong>エラー:</strong> 現在の PHP バージョンは %s の最低必須バージョンを満たしていません。"
 
 #. translators: %s: Theme name.
-#: wp-includes/theme.php:958
+#: wp-includes/theme.php:995
 msgctxt "theme"
 msgid "<strong>Error:</strong> Current WordPress and PHP versions do not meet minimum requirements for %s."
 msgstr "<strong>エラー:</strong> 現在の WordPress および PHP バージョンは %s の最低必須バージョンを満たしていません。"
@@ -6412,71 +6412,71 @@ msgstr "結果セットを複数のタクソノミー間の関係に基づいて
 msgid "The \"%1$s\" taxonomy \"%2$s\" property (%3$s) conflicts with an existing property on the REST API Posts Controller. Specify a custom \"rest_base\" when registering the taxonomy to avoid this error."
 msgstr "\"%1$s\" タクソノミーの \"%2$s\" プロパティー (%3$s) は REST API Posts Controller の既存のプロパティーと衝突します。エラーを避けるため、タクソノミーを登録する際にカスタム rest_base を指定してください。"
 
-#: wp-includes/theme.php:4268
+#: wp-includes/theme.php:4305
 msgid "Whether theme opts in to default WordPress block styles for viewing."
 msgstr "テーマが表示向けにデフォルトの WordPress ブロックスタイルを選択するかどうか。"
 
-#: wp-includes/theme.php:4261
+#: wp-includes/theme.php:4298
 msgid "Whether the theme can manage the document title tag."
 msgstr "テーマがページのタイトルタグを管理できるかどうか。"
 
-#: wp-includes/theme.php:4194
+#: wp-includes/theme.php:4231
 msgid "Allows use of HTML5 markup for search forms, comment forms, comment lists, gallery, and caption."
 msgstr "検索フォーム、コメントフォーム、コメントリスト、ギャラリー、キャプションには HTML5 マークアップが使用できます。"
 
-#: wp-includes/theme.php:4186
+#: wp-includes/theme.php:4223
 msgid "Whether theme opts in to the editor styles CSS wrapper."
 msgstr "テーマがエディタースタイルの CSS ラッパーをオプトインするかどうか。"
 
-#: wp-includes/theme.php:4162
+#: wp-includes/theme.php:4199
 msgid "Custom gradient presets if defined by the theme."
 msgstr "カスタムグラデーションプリセット (テーマで定義している場合)。"
 
-#: wp-includes/theme.php:4137
+#: wp-includes/theme.php:4174
 msgid "Custom font sizes if defined by the theme."
 msgstr "カスタムフォントサイズ (テーマで定義している場合)。"
 
-#: wp-includes/theme.php:4112
+#: wp-includes/theme.php:4149
 msgid "Custom color palette if defined by the theme."
 msgstr "カスタムカラーパレット (テーマで定義している場合)。"
 
-#: wp-includes/theme.php:4097
+#: wp-includes/theme.php:4134
 msgid "Whether the theme disables custom gradients."
 msgstr "テーマがカスタムグラデーションを無効化するかどうか。"
 
-#: wp-includes/theme.php:4090
+#: wp-includes/theme.php:4127
 msgid "Whether the theme disables custom font sizes."
 msgstr "テーマがカスタムフォントサイズを無効化するかどうか。"
 
-#: wp-includes/theme.php:4083
+#: wp-includes/theme.php:4120
 msgid "Whether the theme disables custom colors."
 msgstr "テーマがカスタム色を無効化するかどうか。"
 
-#: wp-includes/theme.php:4076
+#: wp-includes/theme.php:4113
 msgid "Whether theme opts in to the dark editor style UI."
 msgstr "テーマがダークエディタースタイル UI をオプトインするかどうか。"
 
-#: wp-includes/theme.php:4069
+#: wp-includes/theme.php:4106
 msgid "Whether the theme enables Selective Refresh for Widgets being managed with the Customizer."
 msgstr "テーマがカスタマイザーで管理するウィジェットの選択的リフレッシュを有効化するかどうか。"
 
-#: wp-includes/theme.php:4036
+#: wp-includes/theme.php:4073
 msgid "Custom logo if defined by the theme."
 msgstr "カスタムロゴ (テーマで定義している場合)"
 
-#: wp-includes/theme.php:3921
+#: wp-includes/theme.php:3958
 msgid "Custom background if defined by the theme."
 msgstr "カスタム背景 (テーマで定義している場合)"
 
-#: wp-includes/theme.php:3991
+#: wp-includes/theme.php:4028
 msgid "Custom header if defined by the theme."
 msgstr "カスタムヘッダー (テーマで定義している場合)"
 
-#: wp-includes/theme.php:3900
+#: wp-includes/theme.php:3937
 msgid "Whether posts and comments RSS feed links are added to head."
 msgstr "投稿とコメントの RSS フィードリンクを head に追加するかどうか。"
 
-#: wp-includes/theme.php:3893
+#: wp-includes/theme.php:3930
 msgid "Whether theme opts in to wide alignment CSS class."
 msgstr "テーマが幅広や全幅の CSS クラスをオプトインするかどうか。"
 
@@ -6990,8 +6990,8 @@ msgid "Restore from Trash"
 msgstr "ゴミ箱から復元"
 
 #. translators: Localized Support reference.
-#: wp-includes/admin-bar.php:213 wp-includes/class-wpdb.php:1239
-#: wp-includes/class-wpdb.php:2024 wp-includes/class-wpdb.php:2184
+#: wp-includes/admin-bar.php:213 wp-includes/class-wpdb.php:1224
+#: wp-includes/class-wpdb.php:2009 wp-includes/class-wpdb.php:2169
 #: wp-includes/customize/class-wp-customize-themes-section.php:90
 #: wp-includes/load.php:191
 #: wp-includes/rest-api/endpoints/class-wp-rest-pattern-directory-controller.php:150
@@ -7601,7 +7601,7 @@ msgstr "ブロックの属性。"
 msgid "Unique registered name for the block."
 msgstr "ブロックのユニークな登録名。"
 
-#: wp-includes/theme.php:4254
+#: wp-includes/theme.php:4291
 msgid "Whether the theme supports responsive embedded content."
 msgstr "テーマがレスポンシブな埋め込みコンテンツに対応しているかどうか。"
 
@@ -7614,7 +7614,7 @@ msgstr "%s後"
 msgid "Limit result set to themes assigned one or more statuses."
 msgstr "1つ以上のステータスが割り当てられたテーマに結果を絞り込む。"
 
-#: wp-includes/theme.php:4217
+#: wp-includes/theme.php:4254
 msgid "Post formats supported."
 msgstr "投稿フォーマット対応済み。"
 
@@ -8198,7 +8198,7 @@ msgstr "%s さんがすでにこのチェンジセットをカスタマイズ中
 msgid "Update anyway, even though it might break your site?"
 msgstr "サイトを壊してしまうかもしれませんが、それでもアップデートしますか ?"
 
-#: wp-includes/class-wpdb.php:1682
+#: wp-includes/class-wpdb.php:1667
 msgid "The query only expected one placeholder, but an array of multiple placeholders was sent."
 msgstr "クエリーには1つのプレースホルダーのみが必要でしたが、複数のプレースホルダーの配列が送信されました。"
 
@@ -8277,12 +8277,12 @@ msgid "Looks like something&#8217;s gone wrong. Wait a couple seconds, and then 
 msgstr "何かうまくいかなかったようです。時間を置いてもう一度お試しください。"
 
 #: wp-includes/class-wp-customize-manager.php:4326
-#: wp-includes/js/dist/editor.js:7566 wp-admin/includes/post.php:1878
+#: wp-includes/js/dist/editor.js:7566 wp-admin/includes/post.php:1891
 msgid "Take over"
 msgstr "引き継ぐ"
 
 #: wp-includes/class-wp-customize-manager.php:4322 wp-admin/comment.php:79
-#: wp-admin/comment.php:291 wp-admin/includes/post.php:1795
+#: wp-admin/comment.php:291 wp-admin/includes/post.php:1808
 #: wp-admin/plugin-editor.php:362 wp-admin/theme-editor.php:416
 msgid "Go back"
 msgstr "戻る"
@@ -8381,12 +8381,12 @@ msgid "%1$s &lsaquo; %2$s &#8212; WordPress"
 msgstr "%1$s &lsaquo; %2$s &#8212; WordPress"
 
 #. translators: 1: Number of placeholders, 2: Number of arguments passed.
-#: wp-includes/class-wpdb.php:1698
+#: wp-includes/class-wpdb.php:1683
 msgid "The query does not contain the correct number of placeholders (%1$d) for the number of arguments passed (%2$d)."
 msgstr "渡された引数の数 (%2$d) に対する適正なプレースホルダー数 (%1$d) がクエリーに含まれていません。"
 
 #. translators: %s: Value type.
-#: wp-includes/class-wpdb.php:1742
+#: wp-includes/class-wpdb.php:1727
 msgid "Unsupported value type (%s)."
 msgstr "サポートされていない値のタイプ (%s) です。"
 
@@ -9954,60 +9954,60 @@ msgstr "無効なページテンプレートです。"
 msgid "Invalid date."
 msgstr "無効な日時です。"
 
-#: wp-includes/theme.php:1695
+#: wp-includes/theme.php:1732
 msgid "Video is playing."
 msgstr "動画を再生中。"
 
-#: wp-includes/theme.php:1694
+#: wp-includes/theme.php:1731
 msgid "Video is paused."
 msgstr "動画を一時停止中。"
 
-#: wp-includes/theme.php:2297
+#: wp-includes/theme.php:2334
 msgctxt "Theme starter content"
 msgid "Archives"
 msgstr "アーカイブ"
 
-#: wp-includes/theme.php:2449
+#: wp-includes/theme.php:2486
 msgctxt "Theme starter content"
 msgid "This is an example of a homepage section. Homepage sections can be any page other than the homepage itself, including the page that shows your latest blog posts."
 msgstr "これはホームページセクションの例です。最新のブログ投稿を表示するページを含め、ホームページを除くすべてのページをホームページセクションにすることができます。"
 
-#: wp-includes/theme.php:2441
+#: wp-includes/theme.php:2478
 msgctxt "Theme starter content"
 msgid "News"
 msgstr "ニュース"
 
-#: wp-includes/theme.php:2432
+#: wp-includes/theme.php:2469
 msgctxt "Theme starter content"
 msgid "This is a page with some basic contact information, such as an address and phone number. You might also try a plugin to add a contact form."
 msgstr "これは、住所や電話番号などの基本的な連絡先情報が記載されたページです。問い合わせフォームを追加するプラグインを試すこともできます。"
 
-#: wp-includes/theme.php:2424
+#: wp-includes/theme.php:2461
 msgctxt "Theme starter content"
 msgid "You might be an artist who would like to introduce yourself and your work here or maybe you are a business with a mission to describe."
 msgstr "あなたは自身や自身の作品を紹介したいアーティストかもしれないし、あるいは、説明するべきミッションを持つ企業かもしれません。"
 
-#: wp-includes/theme.php:2416
+#: wp-includes/theme.php:2453
 msgctxt "Theme starter content"
 msgid "Welcome to your site! This is your homepage, which is what most visitors will see when they come to your site for the first time."
 msgstr "サイトへようこそ。これはあなたのホームページで、ほとんどの訪問者がこのサイトに初めて訪れる際に目にするものです。"
 
-#: wp-includes/theme.php:2327
+#: wp-includes/theme.php:2364
 msgctxt "Theme starter content"
 msgid "Recent Posts"
 msgstr "最近の投稿"
 
-#: wp-includes/theme.php:2321
+#: wp-includes/theme.php:2358
 msgctxt "Theme starter content"
 msgid "Recent Comments"
 msgstr "最近のコメント"
 
-#: wp-includes/theme.php:2315
+#: wp-includes/theme.php:2352
 msgctxt "Theme starter content"
 msgid "Meta"
 msgstr "メタ情報"
 
-#: wp-includes/theme.php:2303
+#: wp-includes/theme.php:2340
 msgctxt "Theme starter content"
 msgid "Calendar"
 msgstr "カレンダー"
@@ -10075,37 +10075,37 @@ msgstr "このコメントを読む権限がありません。"
 msgid "Sorry, you are not allowed to read comments without a post."
 msgstr "投稿のないコメントを読む権限がありません。"
 
-#: wp-includes/theme.php:2406
+#: wp-includes/theme.php:2443
 msgctxt "Theme starter content"
 msgid "YouTube"
 msgstr "YouTube"
 
-#: wp-includes/theme.php:2394
+#: wp-includes/theme.php:2431
 msgctxt "Theme starter content"
 msgid "Pinterest"
 msgstr "Pinterest"
 
-#: wp-includes/theme.php:2390
+#: wp-includes/theme.php:2427
 msgctxt "Theme starter content"
 msgid "LinkedIn"
 msgstr "LinkedIn"
 
-#: wp-includes/theme.php:2382
+#: wp-includes/theme.php:2419
 msgctxt "Theme starter content"
 msgid "GitHub"
 msgstr "GitHub"
 
-#: wp-includes/theme.php:2378
+#: wp-includes/theme.php:2415
 msgctxt "Theme starter content"
 msgid "Foursquare"
 msgstr "Foursquare"
 
-#: wp-includes/theme.php:2289
+#: wp-includes/theme.php:2326
 msgctxt "Theme starter content"
 msgid "This may be a good place to introduce yourself and your site or include some credits."
 msgstr "ここには、自己紹介やサイトの紹介、あるいはクレジットの類を書くと良いでしょう。"
 
-#: wp-includes/theme.php:2288
+#: wp-includes/theme.php:2325
 msgctxt "Theme starter content"
 msgid "About This Site"
 msgstr "このサイトについて"
@@ -10155,97 +10155,97 @@ msgstr "動画を変更"
 msgid "Select video"
 msgstr "動画を選択"
 
-#: wp-includes/theme.php:2446
+#: wp-includes/theme.php:2483
 msgctxt "Theme starter content"
 msgid "A homepage section"
 msgstr "ホームページセクション"
 
-#: wp-includes/theme.php:2437
+#: wp-includes/theme.php:2474
 msgctxt "Theme starter content"
 msgid "Blog"
 msgstr "ブログ"
 
-#: wp-includes/theme.php:2429
+#: wp-includes/theme.php:2466
 msgctxt "Theme starter content"
 msgid "Contact"
 msgstr "お問い合わせ"
 
-#: wp-includes/theme.php:2421
+#: wp-includes/theme.php:2458
 msgctxt "Theme starter content"
 msgid "About"
 msgstr "会社概要"
 
-#: wp-includes/theme.php:2340 wp-includes/theme.php:2413
+#: wp-includes/theme.php:2377 wp-includes/theme.php:2450
 msgctxt "Theme starter content"
 msgid "Home"
 msgstr "ホームページ"
 
-#: wp-includes/theme.php:2370
+#: wp-includes/theme.php:2407
 msgctxt "Theme starter content"
 msgid "Email"
 msgstr "メール"
 
-#: wp-includes/theme.php:2386
+#: wp-includes/theme.php:2423
 msgctxt "Theme starter content"
 msgid "Instagram"
 msgstr "Instagram"
 
-#: wp-includes/theme.php:2398
+#: wp-includes/theme.php:2435
 msgctxt "Theme starter content"
 msgid "Twitter"
 msgstr "Twitter"
 
-#: wp-includes/theme.php:2374
+#: wp-includes/theme.php:2411
 msgctxt "Theme starter content"
 msgid "Facebook"
 msgstr "Facebook"
 
-#: wp-includes/theme.php:2402
+#: wp-includes/theme.php:2439
 msgctxt "Theme starter content"
 msgid "Yelp"
 msgstr "Yelp"
 
-#: wp-includes/theme.php:2309
+#: wp-includes/theme.php:2346
 msgctxt "Theme starter content"
 msgid "Categories"
 msgstr "カテゴリー"
 
-#: wp-includes/theme.php:2333
+#: wp-includes/theme.php:2370
 msgctxt "Theme starter content"
 msgid "Search"
 msgstr "検索"
 
-#: wp-includes/theme.php:2278
+#: wp-includes/theme.php:2315
 msgctxt "Theme starter content"
 msgid "Saturday &amp; Sunday: 11:00AM&ndash;3:00PM"
 msgstr "土日: 11:00 AM &ndash; 3:00 PM"
 
-#: wp-includes/theme.php:2277
+#: wp-includes/theme.php:2314
 msgctxt "Theme starter content"
 msgid "Monday&ndash;Friday: 9:00AM&ndash;5:00PM"
 msgstr "月〜金: 9:00 AM &ndash; 5:00 PM"
 
-#: wp-includes/theme.php:2276
+#: wp-includes/theme.php:2313
 msgctxt "Theme starter content"
 msgid "Hours"
 msgstr "営業時間"
 
-#: wp-includes/theme.php:2275
+#: wp-includes/theme.php:2312
 msgctxt "Theme starter content"
 msgid "New York, NY 10001"
 msgstr "New York, NY 10001"
 
-#: wp-includes/theme.php:2274
+#: wp-includes/theme.php:2311
 msgctxt "Theme starter content"
 msgid "123 Main Street"
 msgstr "123 Main Street"
 
-#: wp-includes/theme.php:2273
+#: wp-includes/theme.php:2310
 msgctxt "Theme starter content"
 msgid "Address"
 msgstr "住所"
 
-#: wp-includes/theme.php:2269
+#: wp-includes/theme.php:2306
 msgctxt "Theme starter content"
 msgid "Find Us"
 msgstr "アクセス"
@@ -11616,11 +11616,11 @@ msgstr "動画プレーヤー"
 msgid "Time Slider"
 msgstr "タイムスライダー"
 
-#: wp-includes/script-loader.php:1080 wp-includes/theme.php:1692
+#: wp-includes/script-loader.php:1080 wp-includes/theme.php:1729
 msgid "Pause"
 msgstr "停止"
 
-#: wp-includes/script-loader.php:1079 wp-includes/theme.php:1693
+#: wp-includes/script-loader.php:1079 wp-includes/theme.php:1730
 msgid "Play"
 msgstr "再生"
 
@@ -11710,7 +11710,7 @@ msgctxt "site"
 msgid "&larr; Go to %s"
 msgstr "&larr; %s へ移動"
 
-#: wp-includes/class-wpdb.php:2291
+#: wp-includes/class-wpdb.php:2276
 msgid "Unable to retrieve the error message from MySQL"
 msgstr "MySQL からエラーメッセージを取得できません"
 
@@ -12260,58 +12260,58 @@ msgstr "投稿タイトル:"
 msgid "Author:"
 msgstr "投稿者:"
 
-#: wp-includes/class-wpdb.php:2178
+#: wp-includes/class-wpdb.php:2163
 msgid "Are you sure the database server is not under particularly heavy load?"
 msgstr "データベースサーバーに非常に重い負荷がかかっていませんか ?"
 
 #. translators: %s: Database host.
-#: wp-includes/class-wpdb.php:2172
+#: wp-includes/class-wpdb.php:2157
 msgid "This means that the contact with the database server at %s was lost. This could mean your host&#8217;s database server is down."
 msgstr "これは %s のデータベースサーバーとの接続が切断されたことを意味しています。ホスティングサービスのデータベースサーバーがダウンしている可能性もあります。"
 
-#: wp-includes/class-wpdb.php:2168
+#: wp-includes/class-wpdb.php:2153
 msgid "Error reconnecting to the database"
 msgstr "データベース接続エラー"
 
 #. translators: %s: Support forums URL.
-#: wp-includes/class-wpdb.php:2023 wp-includes/class-wpdb.php:2183
+#: wp-includes/class-wpdb.php:2008 wp-includes/class-wpdb.php:2168
 #: wp-includes/load.php:190
 msgid "If you are unsure what these terms mean you should probably contact your host. If you still need help you can always visit the <a href=\"%s\">WordPress support forums</a>."
 msgstr "こうした用語が何を意味しているのか分からない場合は、ホスティングサービスに連絡するべきでしょう。助けが必要であればいつでも <a href=\"%s\">WordPress サポートフォーラム</a>を訪れることができます。"
 
-#: wp-includes/class-wpdb.php:2018 wp-includes/class-wpdb.php:2177
+#: wp-includes/class-wpdb.php:2003 wp-includes/class-wpdb.php:2162
 msgid "Are you sure the database server is running?"
 msgstr "データベースサーバーは動作中ですか ?"
 
-#: wp-includes/class-wpdb.php:2017
+#: wp-includes/class-wpdb.php:2002
 msgid "Are you sure you have typed the correct hostname?"
 msgstr "正しいホスト名を入力しましたか ?"
 
-#: wp-includes/class-wpdb.php:2016
+#: wp-includes/class-wpdb.php:2001
 msgid "Are you sure you have the correct username and password?"
 msgstr "ユーザー名とパスワードに間違いはありませんか ?"
 
 #. translators: 1: wp-config.php, 2: Database host.
-#: wp-includes/class-wpdb.php:2010
+#: wp-includes/class-wpdb.php:1995
 msgid "This either means that the username and password information in your %1$s file is incorrect or that contact with the database server at %2$s could not be established. This could mean your host&#8217;s database server is down."
 msgstr "これは、%1$s ファイルのユーザー名とパスワードが正しくないか、あるいは %2$s のデータベースサーバーに接続できないかのどちらかを意味します。ホスティングサービスのデータベースサーバーがダウンしているかもしれません。"
 
 #. translators: %s: Support forums URL.
-#: wp-includes/class-wpdb.php:1238
+#: wp-includes/class-wpdb.php:1223
 msgid "If you do not know how to set up a database you should <strong>contact your host</strong>. If all else fails you may find help at the <a href=\"%s\">WordPress support forums</a>."
 msgstr "データベースのセットアップ方法が分からない場合は<strong>ホスティングサービスに連絡してください</strong>。それでもダメなら<a href=\"%s\">WordPress サポートフォーラム</a>でヘルプを見つけられるかもしれません。"
 
 #. translators: %s: Database name.
-#: wp-includes/class-wpdb.php:1230
+#: wp-includes/class-wpdb.php:1215
 msgid "On some systems the name of your database is prefixed with your username, so it would be like <code>username_%1$s</code>. Could that be the problem?"
 msgstr "一部のシステムでは <code>username_%1$s</code> のようにデータベースの接頭辞にユーザー名がつけられています。これが問題になっている可能性はありませんか ?"
 
 #. translators: 1: Database user, 2: Database name.
-#: wp-includes/class-wpdb.php:1223
+#: wp-includes/class-wpdb.php:1208
 msgid "Does the user %1$s have permission to use the %2$s database?"
 msgstr "ユーザー %1$s にはデータベース %2$s を使用できる権限がありますか ?"
 
-#: wp-includes/class-wpdb.php:1219
+#: wp-includes/class-wpdb.php:1204
 msgid "Are you sure it exists?"
 msgstr "本当に存在していますか ?"
 
@@ -12373,7 +12373,7 @@ msgstr "%1$s (%2$s 以降。代替関数なし)"
 msgid "%1$s (since %2$s; use %3$s instead)"
 msgstr "%1$s (%2$s 以降。代わりに %3$s を使ってください)"
 
-#: wp-includes/rest-api/class-wp-rest-server.php:1425
+#: wp-includes/rest-api/class-wp-rest-server.php:1418
 msgid "The specified namespace could not be found."
 msgstr "指定された名前空間が見つかりませんでした。"
 
@@ -12381,7 +12381,7 @@ msgstr "指定された名前空間が見つかりませんでした。"
 msgid "No route was found matching the URL and request method."
 msgstr "URL とリクエストメソッドに一致するルートが見つかりませんでした。"
 
-#: wp-includes/rest-api/class-wp-rest-server.php:1748
+#: wp-includes/rest-api/class-wp-rest-server.php:1741
 msgid "The handler for the route is invalid"
 msgstr "ルートのハンドラが無効です"
 
@@ -12811,7 +12811,7 @@ msgstr "メニューに追加: %1$s (%2$s)"
 msgid "When starting a new paragraph with one of these formatting shortcuts followed by a space, the formatting will be applied automatically. Press Backspace or Escape to undo."
 msgstr "書式ショートカットに続けてスペースで新しい段落を始めると、その書式が自動的に適用されます。取り消すにはバックスペース、または ESC キーを押してください。"
 
-#: wp-includes/class-wpdb.php:1835 wp-includes/class-wpdb.php:1852
+#: wp-includes/class-wpdb.php:1820 wp-includes/class-wpdb.php:1837
 msgid "WordPress database error:"
 msgstr "WordPress データベースエラー:"
 
@@ -13342,7 +13342,7 @@ msgid "%1$s response to %2$s"
 msgid_plural "%1$s responses to %2$s"
 msgstr[0] "%2$s への%1$s件のフィードバック"
 
-#: wp-includes/theme.php:3699
+#: wp-includes/theme.php:3736
 msgid "Customizer"
 msgstr "カスタマイザー"
 
@@ -13552,7 +13552,7 @@ msgid "Distraction-free writing mode"
 msgstr "集中執筆モード"
 
 #. translators: 1: title-tag, 2: wp_loaded
-#: wp-includes/theme.php:2885
+#: wp-includes/theme.php:2922
 msgid "Theme support for %1$s should be registered before the %2$s hook."
 msgstr "%1$s のテーマサポートは、%2$s フックよりも前に登録してください。"
 
@@ -13595,11 +13595,11 @@ msgstr "次の値は有効な日付の形式ではありません: %1$s月%2$s�
 
 #. translators: %s: Database access abstraction class, usually wpdb or a class
 #. extending wpdb.
-#: wp-includes/class-wpdb.php:1289
+#: wp-includes/class-wpdb.php:1274
 msgid "%s must set a database connection for use with escaping."
 msgstr "エスケープして使うには %s にデータベース接続の設定をする必要があります。"
 
-#: wp-includes/theme.php:2692
+#: wp-includes/theme.php:2729
 msgid "You need to pass an array of types."
 msgstr "タイプの配列を渡す必要があります。"
 
@@ -14415,7 +14415,7 @@ msgid "Hint: The password should be at least twelve characters long. To make it 
 msgstr "ヒント: パスワードは少なくとも7文字以上であるべきです。より強固にするためには大文字と小文字、数字、 ! \" ? $ % ^ &amp; ) のような記号を使いましょう。"
 
 #. translators: %s: wpdb::prepare()
-#: wp-includes/class-wpdb.php:1475
+#: wp-includes/class-wpdb.php:1460
 msgid "The query argument of %s must have a placeholder."
 msgstr "%s のクエリー引数にはプレースホルダーが必要です。"
 
@@ -16045,8 +16045,8 @@ msgstr "画像リンクタイプの初期設定"
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:489
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:804
 #: wp-admin/includes/ajax-actions.php:2066 wp-admin/includes/media.php:3810
-#: wp-admin/includes/post.php:288 wp-admin/includes/post.php:2060
-#: wp-admin/includes/post.php:2064
+#: wp-admin/includes/post.php:288 wp-admin/includes/post.php:2073
+#: wp-admin/includes/post.php:2077
 msgid "Sorry, you are not allowed to edit this post."
 msgstr "この投稿を編集する権限がありません。"
 
@@ -16056,7 +16056,7 @@ msgstr "サイトを編集"
 
 #: wp-includes/post.php:5289 wp-admin/includes/ajax-actions.php:124
 #: wp-admin/includes/meta-boxes.php:583 wp-admin/includes/post.php:576
-#: wp-admin/includes/post.php:2238 wp-admin/js/inline-edit-post.js:358
+#: wp-admin/includes/post.php:2251 wp-admin/js/inline-edit-post.js:400
 #: wp-admin/js/tags-box.js:9 wp-admin/js/tags-suggest.js:12
 msgctxt "tag delimiter"
 msgid ","
@@ -16269,7 +16269,7 @@ msgstr "ドキュメンテーション"
 msgid "&hellip;"
 msgstr "&hellip;"
 
-#: wp-includes/class-wpdb.php:2006 wp-includes/functions.php:5412
+#: wp-includes/class-wpdb.php:1991 wp-includes/functions.php:5412
 #: wp-includes/ms-load.php:475
 msgid "Error establishing a database connection"
 msgstr "データベース接続確立エラー"
@@ -17577,7 +17577,7 @@ msgstr "Powered by WordPress"
 
 #. translators: 1: WordPress version number, 2: Minimum required MySQL version
 #. number.
-#: wp-includes/class-wpdb.php:4004
+#: wp-includes/class-wpdb.php:3989
 msgid "<strong>Error:</strong> WordPress %1$s requires MySQL %2$s or higher"
 msgstr "<strong>エラー:</strong> WordPress %1$s には MySQL %2$s 以上が必要です"
 
@@ -18317,7 +18317,7 @@ msgid "Document properties"
 msgstr "ページ設定"
 
 #: wp-includes/class-wp-editor.php:1370 wp-includes/script-loader.php:1293
-#: wp-includes/theme.php:3698 wp-admin/js/nav-menu.js:1260
+#: wp-includes/theme.php:3735 wp-admin/js/nav-menu.js:1260
 #: wp-admin/js/post.js:512 wp-admin/js/theme-plugin-editor.js:71
 #: wp-admin/js/widgets.js:98
 msgid "The changes you made will be lost if you navigate away from this page."
@@ -18966,7 +18966,7 @@ msgstr "コメントは受け付けていません。"
 
 #: wp-includes/post-template.php:950
 msgid "Pages:"
-msgstr "ページ:"
+msgstr "固定ページ:"
 
 #: wp-includes/category-template.php:1233
 msgid "Tags: "
@@ -19373,7 +19373,7 @@ msgstr "ヘルプ"
 #: wp-includes/js/dist/edit-site.js:20449 wp-includes/js/dist/editor.js:10278
 #: wp-admin/includes/ajax-actions.php:2255 wp-admin/includes/media.php:3331
 #: wp-admin/includes/revision.php:61 wp-admin/includes/revision.php:64
-#: wp-admin/includes/template.php:2097 wp-admin/js/inline-edit-post.js:201
+#: wp-admin/includes/template.php:2097 wp-admin/js/inline-edit-post.js:204
 msgid "(no title)"
 msgstr "(タイトルなし)"
 
@@ -19884,7 +19884,7 @@ msgstr "最近のコメント"
 #: wp-admin/includes/class-custom-image-header.php:551
 #: wp-admin/includes/class-wp-posts-list-table.php:1542
 #: wp-admin/includes/class-wp-theme-install-list-table.php:346
-#: wp-admin/includes/meta-boxes.php:73 wp-admin/includes/post.php:1871
+#: wp-admin/includes/meta-boxes.php:73 wp-admin/includes/post.php:1884
 #: wp-admin/theme-install.php:426 wp-admin/theme-install.php:439
 #: wp-admin/theme-install.php:449 wp-admin/theme-install.php:456
 #: wp-admin/theme-install.php:609
@@ -20226,7 +20226,7 @@ msgstr "表示"
 #: wp-admin/includes/class-wp-users-list-table.php:472
 #: wp-admin/includes/dashboard.php:758 wp-admin/includes/meta-boxes.php:135
 #: wp-admin/includes/meta-boxes.php:197 wp-admin/includes/meta-boxes.php:292
-#: wp-admin/includes/post.php:1582
+#: wp-admin/includes/post.php:1595
 #: wp-admin/includes/class-wp-ms-sites-list-table.php:740
 #: wp-admin/includes/class-wp-ms-users-list-table.php:406
 #: wp-admin/includes/class-wp-ms-users-list-table.php:527
